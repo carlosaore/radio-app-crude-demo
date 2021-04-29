@@ -1,7 +1,7 @@
 const Player = (props) => {
   return (
     <>
-      <progress class="matter-progress-linear"></progress>
+      <progress className="matter-progress-linear"></progress>
       <p>
         Currently playing: <b>{props.valueRadio}</b>
       </p>
